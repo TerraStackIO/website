@@ -18,14 +18,14 @@ class Homepage extends React.Component {
             <div className="col-6">
               <header className="major">
                 <h2>
-                  Supercharge Terraform with
+                  Supercharge Terraform with <nbsp />
                   <br />
                   the Javascript Ecosystem
                 </h2>
               </header>
               <p>
-                Leveraging NPM as dependency management and Node.js as platform
-                for orchestrating Terraform stacks.
+                Leveraging NPM for dependency management and Node.js as platform
+                to orchestrate Terraform stacks.
               </p>
             </div>
             <div className="col-6">
