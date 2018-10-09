@@ -1,4 +1,5 @@
 import React from 'react'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 class Header extends React.Component {
   render() {
@@ -10,12 +11,12 @@ class Header extends React.Component {
           <h3> Open Source Orchestration for Terraform Workflows</h3>
           <ul className="actions">
             <li>
-              <a
+              <OutboundLink
                 href="https://github.com/TerraStackIO/terrastack"
                 className="button"
               >
                 Explore on Github
-              </a>
+              </OutboundLink>
             </li>
           </ul>
         </div>
