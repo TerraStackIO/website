@@ -8,7 +8,7 @@ class Header extends React.Component {
         <div className="inner">
           <span className="icon major fa-cloud" />
           <h1>TerraStack</h1>
-          <h3> Open Source Orchestration for Terraform Workflows</h3>
+          <h3> Polyglot Terraform in Typescript, Python, Java or C#</h3>
           <ul className="actions">
             <li>
               <OutboundLink
