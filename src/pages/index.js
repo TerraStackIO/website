@@ -23,8 +23,7 @@ class Homepage extends React.Component {
                 </h2>
               </header>
               <p>                
-                Use an actual programming language to define your Terraform resources. Borrowing from the CDK and leveraging jsii for polyglot libraries,
-                this allows you to choose from Typescript, Python, Java or C# with even more choices to come.
+                Terrastack enables you to keep using Terraform as engine, while defining your resources in actual programming languages such as Typescript, Python, Java or C# 
               </p>
             </div>
             <div className="col-6">
