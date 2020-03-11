@@ -34,7 +34,6 @@ class Footer extends React.Component {
         <ul className="copyright">
           <li>&copy; <OutboundLink
               href="https://skorfmann.com"
-              className="icon alt fa-twitter"
             >Sebastian Korfmann</OutboundLink></li>
           <li>
             Design:{' '}
