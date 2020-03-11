@@ -32,7 +32,10 @@ class Footer extends React.Component {
           </li>
         </ul>
         <ul className="copyright">
-          <li>&copy; TerraStack Team</li>
+          <li>&copy; <OutboundLink
+              href="https://skorfmann.com"
+              className="icon alt fa-twitter"
+            >Sebastian Korfmann</OutboundLink></li>
           <li>
             Design:{' '}
             <OutboundLink href="http://html5up.net">HTML5 UP</OutboundLink>
