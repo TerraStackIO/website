@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import terrastackNetwork from '../assets/images/terrastack_network.png'
+import terrastackNetwork from '../assets/images/terrastack.png'
 
 class Homepage extends React.Component {
   render() {
