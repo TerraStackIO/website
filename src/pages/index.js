@@ -6,7 +6,7 @@ import terrastackNetwork from '../assets/images/terrastack.png'
 
 class Homepage extends React.Component {
   render() {
-    const siteTitle = 'TerraStack'
+    const siteTitle = 'TerraStack is now Terraform CDK'
 
     return (
       <Layout>
@@ -17,13 +17,11 @@ class Homepage extends React.Component {
             <div className="col-6">
               <header className="major">
                 <h2>
-                  Polyglot Terraform <nbsp />
-                  <br />
-                  in Typescript, Python, Java or C#
+                  The idea of Terrastack lives on in the Terraform CDK
                 </h2>
               </header>
-              <p>                
-                Terrastack enables you to keep using Terraform as engine, while defining your resources in actual programming languages such as Typescript, Python, Java or C# 
+              <p>
+                Please check it out on Github <a href="https://github.com/hashicorp/terraform-cdk">https://github.com/hashicorp/terraform-cdk</a>
               </p>
             </div>
             <div className="col-6">
